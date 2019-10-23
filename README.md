@@ -6,50 +6,50 @@ By following the incoming instructions, you will be able to get PyLogs into any 
 
 ### Prerequisites
 To be able to use PyLogs you will need:
-- Python 3.x
+* Python 3.x
+* Python IDE ([PyCharm](https://jetbrains.com/pycharm))
 
 ### Installing
-- Clone or download this github repository
+* Clone or download this github repository
 
 ```
 git clone https://github.com/kkrypt0nn/PyLogs.git
 ```
 
-- Move all the files into your folder where your python project is
-- To start using PyLogs you need to import the `Logger.py` file
+* Move the `pylogs` folder into your python project folder
+* To start using PyLogs you need to import `pylogs`
 
 ```python
-import PyLogs
+import pylogs
 
-print(PyLogs.__name__ + ", Version " + PyLogs.__version__)
-print("Made by " + PyLogs.__author__)
+print(pylogs.__name__ + ", Version " + pylogs.__version__)
+print("Made by " + pylogs.__author__)
 ```
 
-- To create new logs you will need to import the class `Log` from `Loggger.py`
+* To create new logs you will need to use for example `PyLogs.critical()`
 
 ```python
-import PyLogs
-from PyLogs import Log
+import pylogs
 
-print(PyLogs.__name__ + ", Version " + PyLogs.__version__)
-print("Made by " + PyLogs.__author__ + "\n\n")
+print(pylogs.__name__ + ", Version " + pylogs.__version__)
+print("Made by " + pylogs.__author__ + "\n\n")
 
 # Prints Critical Error Message With Color
-Log.critical("Critical Error Message", True)
+pylogs.critical("Critical Error Message", True)
 # Prints Critical Error Message Without Color
-Log.critical("Critical Error Message", False)
+pylogs.critical("Critical Error Message", False)
 
 # Prints Warning Message With Color
-Log.warning("Warning Message", True)
+pylogs.warning("Warning Message", True)
 # Prints Warning Message Without Color
-Log.warning("Warning Message", False)
+pylogs.warning("Warning Message", False)
 ```
 
 If you still do not understand after following these steps, there is an example file called [Example.py](Example.py).
 
 ## Built With
-- [PyCharm](https://jetbrains.com/pycharm/download)
-- [Python 3.x](https://python.org/downloads)
+* [PyCharm](https://jetbrains.com/pycharm)
+* [Python 3.x](https://python.org)
 
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to this project.
@@ -68,7 +68,7 @@ Submit your issues that you encounter while installing and using PyLogs [here](h
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/kkrypt0nn/PyLogs/tags).
 
 ## Authors
-- **Krypton** - *Initial work* - [kkrypt0nn](https://github.com/kkrypt0nn)
+* **Krypton** - *Initial work* - [kkrypt0nn](https://github.com/kkrypt0nn)
 
 ## License
 This project is licensed under the [Apache 2.0](LICENSE.md) License - see the [LICENSE.md](LICENSE.md) file for details.

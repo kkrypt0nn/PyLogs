@@ -1,2 +1,3 @@
 /.idea/*
 /__pycache__/*
+/pylogs/__pycache__/*

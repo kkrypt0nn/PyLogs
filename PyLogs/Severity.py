@@ -1,6 +1,6 @@
 from enum import Enum
 
-class Level(Enum):
+class Severity(Enum):
     CRITICAL = 50
     ERROR = 40
     WARNING = 30
