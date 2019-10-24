@@ -10,13 +10,17 @@ To be able to use PyLogs you will need:
 * Python IDE ([PyCharm](https://jetbrains.com/pycharm))
 
 ### Installing
-* Clone or download this github repository
+* Open your command prompt or terminal and install PyLogs with the following command
 
+For only the current user:
 ```
-git clone https://github.com/kkrypt0nn/PyLogs.git
+pip install --user py-logs
+```
+For all the computer users:
+```
+pip install py-logs
 ```
 
-* Move the `pylogs` folder into your python project folder
 * To start using PyLogs you need to import `pylogs`
 
 ```python
