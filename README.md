@@ -1,5 +1,5 @@
 # PyLogs
-[![Build Status](https://travis-ci.org/kkrypt0nn/PyLogs.svg?branch=master)](https://travis-ci.org/kkrypt0nn/PyLogs) [![Python Versions](https://img.shields.io/badge/python-3.7%20%7C%203.8-orange)](https://pypi.org/project/py-logs)  [![PyPi Versions](https://img.shields.io/badge/pypi-v2.0.2-bluee)](https://pypi.org/project/py-logs) 
+[![Build Status](https://travis-ci.org/kkrypt0nn/PyLogs.svg?branch=master)](https://travis-ci.org/kkrypt0nn/PyLogs) [![Python Versions](https://img.shields.io/badge/python-3.7%20%7C%203.8-orange)](https://pypi.org/project/py-logs)  [![PyPi Versions](https://img.shields.io/badge/pypi-v2.0.2-blue)](https://pypi.org/project/py-logs) 
 
 PyLogs is a python library made by Krypton so that it is easier for everyone to add logs into their python projects.
 
