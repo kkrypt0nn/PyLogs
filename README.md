@@ -32,7 +32,7 @@ print(pylogs.__name__ + ", Version " + pylogs.__version__)
 print("Made by " + pylogs.__author__)
 ```
 
-* To create new logs you will need to use for example `PyLogs.critical()`
+* To create new logs you will need to use, for example, the `PyLogs.critical()` method
 
 ```python
 import pylogs
