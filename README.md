@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="170" height="170" src="https://raw.githubusercontent.com/kkrypt0nn/PyLogs/master/logo.png">
+</p>
+
 # PyLogs
 [![Build Status](https://travis-ci.org/kkrypt0nn/PyLogs.svg?branch=master)](https://travis-ci.org/kkrypt0nn/PyLogs) [![Python Versions](https://img.shields.io/badge/python-3.7%20%7C%203.8-orange)](https://pypi.org/project/py-logs)  [![PyPi Versions](https://img.shields.io/badge/pypi-v2.0.2-blue)](https://pypi.org/project/py-logs) 
 
