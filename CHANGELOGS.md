@@ -1,5 +1,9 @@
 # PyLogs Changelogs
 
+## Version 2.1.2
+#### Added Features:
+- Python 3.5 & 3.6 support
+
 ## Version 2.0.2
 #### Fixed Features:
 - pip installation
