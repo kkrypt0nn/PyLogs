@@ -8,7 +8,7 @@ __author__ = "Krypton"
 __copyright__ = "Copyright ©2019 Krypton"
 __credits__ = []
 __license__ = "Apache 2.0"
-__version__ = "2.0.2"
+__version__ = "2.1.2"
 __maintainer__ = "Krypton"
 __status__ = "Development (Alpha Build)"
 
