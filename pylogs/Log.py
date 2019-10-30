@@ -1,12 +1,12 @@
 from .Formatting import Formatting
 
-__all__ : [
-    'critical()',
-    'error()',
-    'warning()',
-    'info()',
-    'debug()',
-    'success()'
+__all__ = [
+    'critical',
+    'error',
+    'warning',
+    'info',
+    'debug',
+    'success'
 ]
 
 def critical(message: str, color: bool):
